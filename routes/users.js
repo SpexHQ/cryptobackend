@@ -19,8 +19,9 @@ router.post(
             "lastName": req.body.lastName,
             "email": req.body.email,
             "password": req.body.password,
-            "contactNumber": req.body.contactNumber,
-            "address": req.body.address,
+            "cryptoChoice1": req.body.cryptoChoice1,
+            "cryptoChoice2": req.body.cryptoChoice2,
+            "cryptoChoice3": req.body.cryptoChoice3,
         }
 
         // (2) Create instance of UsersModel

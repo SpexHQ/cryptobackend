@@ -19,10 +19,13 @@ const UsersSchema = new mongoose.Schema(
             type: String,
             required: true
         },
-        contactNumber: {
+        cryptoChoice1: {
             type: String,
         },
-        address: {
+        cryptoChoice2: {
+            type: String,
+        },
+        cryptoChoice3: {
             type: String,
         },
         avatar: {
